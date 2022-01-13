@@ -1,0 +1,42 @@
+By using interactive artefacts with physically simulated dynamic behaviors, it benefits nuanced control as it calls back to real life instances that everyone has experienced, inheriting the familiar bodily skill we already have, thus prompt the state of nuanced control to come earlier.
+
+In the final sketch our team designed, our artifact basically simulates a real-life curling scenario. The sound comes from the action of scratching the surface, which simulates the action of using a brush to rub the ice surface in front of the curling ball in actual curling, which makes it melt into water, thereby reducing friction, decreases the deceleration of the curling ball.
+This satisfies the basic laws of friction and uniform deceleration linear motion in physical dynamics.
+
+In another experiment, we thought that since the output was already in the form of a screen, thus we don't need to follow the real-life curling scenario, and we sought to break the constraints of real-world physics. So we made a sketch, in which the curling not only has speed on the x-axis, that is, the motion trajectory is a straight line, but also has speed on the y-axis. This realizes that the motion trajectory of curling ball during natural sliding can turn halfway, and the angle of this turn can be controlled by the scratching sound we send as input. This obviously does not satisfy the laws of physics, because the scraping action only changes the friction force, and does not apply a lateral force to the object, which should keep moving in a straight line.
+
+Both of the above cases enable nuanced control because they both allow direct manuability, in the words of Heyer, C. (2018), “Expression of direct manipulability is in the tight coupling of action and response.” (p. 496) In the above two artefacts, the artefact can make continuous feedback to the user's continuous scratching sound input, and the nuances of the scratching sound can be expressed in real time through the speed or speed&turning angle as feedback. This also meets the requirements of nuanced control for the manipulability of objects, that is, when a design openly allows the user to perform nuanced movements to control it, and can give corresponding feedback to the nuanced movements through its own nuanced changes, it is considered to have high manipulability.(Heyer, C. 2018)
+
+Although nuanced control can be achieved in the above two cases, the time point when nuanced control is achieved is different in the two cases.
+
+We felt the difference in the degree of difficulty of these two direct manipulability in the process of actual interaction, that is, earlier (easy) or later (difficult) to achieve nuanced control. When controlling that sketch with a behavior that satisfies the physics dynamics, we can perform the bodily skill of scraping relatively proficiently after 8 or 10 games to have nuanced control over the straight-line speed of the curling ball. For example, nuanced increasing the force as the curling slows down, to melt the imaginary "ice" on the screen. This is in line with our previous habits in real life, and it is easy to achieve earlier. In contrast, in the process of operating a sketch that does not conform to physical dynamics, it takes around 50 games to master the scraping to control its turning angle. Because although coping with it is direct manipulability, the process is tortuous - we have not experienced the experience of controlling the turning of objects by scratching, so we feel that this feedback is abnormal, as novices, skilled and nuanced control is not easy, thus later, to achieve.
+
+The above phenomenon can be explained by Fogtmann's theory, he regards this as "Expressive meaning", in the process of interaction, when the user's body movements are consistent with the feedback of the design, this "Expressive meaning" is generated. “The interactive possibilities are congruent with the kinesthetic capabilities the design has been made for – and the bodily interaction is meaningful for achieving the system goal.”
+ (Fogtmann, M. H., Fritsch, J., & Kortbek, K. J, 2008, p. 93). One example in Fogtmann, M. H., et al's (2008) paper is a game of whack-a-mole called “Octopus Trainer” (p94). Because the actions that occur when playing this virtual game are a complete simulation of team handball in the real world, therefore, it provides expressive meaning. In the above sketch that satisfies physical dynamics, the dynamics of interaction is "mapping of the interaction in the physical world" (Fogtmann, M. H., et al, p. 94), so it has expressive meaning. However, in sketches that do not satisfy physical dynamics, the feedback behavior of the ball and the human input action are not logical, or the user needs to impose a certain meaning on it, so it lacks expressive meaning.
+
+From another perspective, we can also use Dreyfus, H’s (2002) affordance theory to explain the above phenomenon, that is, "The agent sees things from some perspective and sees them as affording certain actions. What the affordances are depends on past experience with that sort of thing in that sort of situation” (Dreyfus, H, 2002, p. 373). In the above sketches that satisfy physical dynamics, because we have experienced curling or a similar experience with curling, this helps to recognize affordance of the artifact. But in sketches that do not satisfy physical dynamics, Its weird behavior doesn't fit our "appropriate memories of other aspects of that object with the current experience"(Dreyfus, H, 2002, p. 373), so it lacks affordance.
+
+According to Dreyfus, H (2002), the process of achieving proficiency is the transformation of the manipulator's skills from a state of rigid response guided by theory to a state of being able to recognize subtle changes and react according to them. By adding expressive meaning and affordance, artifact with physically simulated dynamic behavior is friendly for skill building, that is, there is no need to learn this bodily skill from scratch, so that intuitive behavior replaces reasoned responses earlier, and users enter the state of skillful and nuanced control earlier, which is helpful for nuanced control.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
