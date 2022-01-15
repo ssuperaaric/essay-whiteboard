@@ -19,7 +19,7 @@ From another perspective, we can also use Dreyfus, H’s (2002) affordance theor
 According to Dreyfus, H (2002), the process of achieving proficiency is the transformation of the manipulator's skills from a state of rigid response guided by theory to a state of being able to recognize subtle changes and react according to them. By adding expressive meaning and affordance, artifact with physically simulated dynamic behavior is friendly for skill building, that is, there is no need to learn this bodily skill from scratch, so that intuitive behavior replaces reasoned responses earlier, and users enter the state of skillful and nuanced control earlier, which is helpful for nuanced control.
 
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Artifacts with physically simulated dynamic behavior benefit nuanced control
@@ -194,6 +194,24 @@ Fogtmann, M. H., Fritsch, J., & Kortbek, K. J. (2008). Kinesthetic Interaction -
 
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+By using interactive artefacts with physically simulated dynamic behaviours, 它对于用户拥有技巧的高低而可读性不同，它还具有“ongoing”属性，这两者促进了nuance control。
+
+在以上提到的最终的sketch中，因为其模拟了现实生活中的冰壶球运动的情景，即，从球从屏幕左侧弹出至其停止的一刻为止，屏幕上呈现出来的，是一个不间断的减速度不断变化的减速直线运动的过程。这满足物理动态学定律。我们的小组项目中还有另一个试验，即，在屏幕上模拟一个被竖直上抛的球，它的y轴坐标与声音频率挂钩，即频率越大它的高度越高。但实际操控时，由于直接y轴坐标与声音频率的直接挂钩导致了球的位置变化过快，我们便利用了几个if及elseif语句来给频率分成不同档。这样虽然做到了对声音频率的过滤，但最终屏幕上呈现出来的球的行为方式，是其位置在不同档间跳跃，或者说瞬移。这是一个失败的物理模拟，其显然不符合物理定律，因为现实世界中球的运动是连贯的而不是瞬变的。
+
+在与那个不符合物理定律的草图交互时，我们最终也无法实现细微差别控制。例如，当我们在发出声音的时候，即使我们之前在操纵其他可细微差别控制的sketch时，在发声方面已经积累了技巧，也就是有了使用不同力度或换成不同表面来摩擦而发出具有细微差别的声音的能力。但这个设计品的输出仍然只在几个固定的高度，即档位，之间变化。所以某个范围内，即使我们稍微改变声音频率，这些改变也总是被囊括进某一个档中，球便始终停留在某一高度。我们感觉到了用户日益细腻的发声技巧所已经作用在物件上而产生的更加敏感的影响与物件僵硬固定的反馈之间的矛盾。而这种单一的反馈也让我们不知道刚刚发出的声音是稍微大了或是稍微小了，从而无法锻炼出可适用与这个设计品的，即发声而控制球的高度的，细腻的技巧。而在符合物理动态学的最终草图中，我们所锻炼出来的刮擦力度速度等细腻技巧，都可以在设计品的实时变化的速度中体现出来，例如当球的减速度稍微快了一点时，我们便也稍微加大刮擦力度以求接下来更小的摩擦力。
+
+在一方面，针对于以上提到的，与不符合物理动态学行为的物体进行交互时，我们所体验到的”细腻技巧无用武之地”的现象，以clint的观点来看，这属于“aspects show up to us” not “according to our skill”(p. 503). 也就是说，这个上抛球sketch的反馈方式是分档的，即总是固定在某档之内的，不理会细微差别的。相似于clint中举的’storage space is running low’之类以符号，图标等形式来作为反馈的例子，这种反馈并不根据使用者的技巧不同而产生不同的阅读效果即理解效果，所以不支持nuanced control。相比之下，符合物理动态学行为的curling sketch中，球速度的细微变化对新手来说并感觉不到，具有技巧后才会perceive到他们，并可以相应作出细微差别的反应，这支持了nuanced control。
+
+在另一方面，与不符合物理动态学行为的物体进行交互时nuanced control的实现受阻的现象，也可源于其没有满足“可被细微差别控制的物件”所需的“ongoing”属性。由于反馈方式的分档，即存在断层的性质，在控制上抛球sketch中球的高度时，我们需要持续的试探的做努力直到球的高度跳到下一档位止。这正被clint批判为不支持nuanced coping，因为这里feedbacks are ”not just involved…after a discrete action has occurred.”，而这种feedback是脱节的，所以无法被融入到我们的细腻的coping过程之中。相反，curling sketch的球的速度变化是连贯的，可以被用户在不需主观撤出交互过程的同时seaminglessly地接收，有助于nuanced control。
+
+
+By using interactive artefacts with physically simulated dynamic behaviours, it differs in readability for the level of skill the user has, and it also has an "ongoing" property, both of which are beneficial for nuance control.
+
+In the final sketch mentioned above, because it simulates the situation of curling ball in real life, that is, from the moment when the ball pops from the left side of the screen until it stops, what appears on the screen is a process of decelerating linear motion with varying deceleration with no intermittence. This satisfies the laws of physical dynamics. There is another sketch in our group project, which simulates a ball being thrown vertically, and its y-axis coordinate is tied to the frequency of the sound, i.e., the higher the frequency, the higher the height. However, during actual manipulation, the position of the ball changes too quickly due to the direct connection between the y-axis coordinate and the sound frequency. So we used several if and elseif statements to divide the frequency into different bins. In this way, although the sound frequency is filtered, the final behavior of the ball displayed on the screen is that its position “jumps” between different gears, or “teleports”. This is a failed physics simulation, which obviously does not obey the laws of physical dynamics, because the motion of the ball in the real world is coherent rather than transient.
+
+We end up being unable to achieve nuanced control when interacting with sketches that don't obey the laws of physics. For example, when we're making sounds, even when we've previously been manipulating other nuance-controllable sketches, we've accumulated skills in making sounds, that is, the ability to use different strengths or switch to different surfaces to rub it to produce nuanced sounds. But the output of this design still only varies between a few fixed heights, or bins. So within a certain range, even if we change the sound frequency slightly, these changes are always included in a certain bin, so the ball always stays at a certain height. We felt the tension between the more varied effects that the user's increasingly sophisticated sound-making skills should have on the object, and the rigid, fixed feedback of the object. And this kind of rough feedback also makes us not know whether the sound we just made is a little louder or a little smaller, so we can't exercise the delicate skills that are applicable to this artefact, that is, the sound to control the height of the ball. In the final sketch that conforms to physical dynamics, the delicate skills such as the scratching force and speed that we have exercised can be reflected in the real-time changing speed of the design. For example, when the ball decelerates a little faster, we also slightly increase the scraping force to obtain less friction for the upcoming.
 
 
 
